@@ -33,5 +33,6 @@ namespace asp_mvc_2.Models.DB
         public virtual ICollection<SYSUserProfile> SYSUserProfiles { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<SYSUserRole> SYSUserRoles { get; set; }
+
     }
 }
